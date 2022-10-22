@@ -1,7 +1,7 @@
 # Upload REST API
 
 ## Descrição
-API em REST desenvolvida com a função de salvar imagens enviadas em um servidor, retornando o caminho de onde o arquivo foi salvo.
+API em REST desenvolvida com a função de salvar imagens enviadas em um servidor, retornando o caminho de onde o arquivo foi salvo. O projeto em questão foi desenvolvido em conjunto com [Luciano Sampaio Stuart](https://github.com/lucianostuart).
 
 ## Instalação
 ### Requisitos
