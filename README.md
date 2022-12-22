@@ -10,7 +10,7 @@ API em REST desenvolvida com a função de salvar imagens enviadas em um servido
 
 ### Inicializando
 ```bash
-    ~$ git clone https://github.com/mira-oza/upload-api.git
+    ~$ git clone https://github.com/mShynji/upload-api.git
     ~$ cd upload-api/
     ~$ sudo mvn spring-boot:run
 ```
