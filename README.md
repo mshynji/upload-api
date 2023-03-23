@@ -1,10 +1,10 @@
-# Upload REST API
+# Upload API
 
-## Descrição
 API em REST desenvolvida com a função de salvar imagens enviadas em um servidor, retornando o caminho de onde o arquivo foi salvo. O projeto em questão foi desenvolvido em conjunto com [Luciano Sampaio Stuart](https://github.com/lucianostuart).
 
 ## Instalação
 ### Requisitos
+- Java 11+
 - Maven
 - Postgresql
 
@@ -19,7 +19,7 @@ API em REST desenvolvida com a função de salvar imagens enviadas em um servido
 #### Porta
 Para configurar a porta em que o serviço estará rodando, abra o arquivo `application.properties`, em `src/main/resources`, e altere a linha server.port=`8080`, alterando a parte destacado para a porta que você desejar.
 
-#### Diretório
+#### Diretório as imagens são salvas
 Para configurar o diretório onde os arquivos serão salvos, abra o arquivo `RESTController.java`, em `src/main/java/com/github/miraoza/uploadimage/controller`, e altere a linha static final String saveDirectory  = `"/var/www/api-images"`, alterando a parte destacada para o caminho do diretório onde as imagens serão salvas.;
 
 ## Uso
